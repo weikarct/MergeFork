@@ -25,6 +25,7 @@ public class MergeFork extends javax.swing.JFrame
         "CSIS Student",
         "Brianna Whittaker",
         "Austin Trapp",
+        "Cole Weikart"
     };
     
     /**
@@ -35,6 +36,8 @@ public class MergeFork extends javax.swing.JFrame
         initComponents();
         //  Display alphabetically by last name.
         Arrays.sort(contributorArray, new LastNameComparator());
+        
+        
     }
 
     /**
